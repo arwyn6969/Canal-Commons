@@ -1,0 +1,31 @@
+name: 💡 Idea or opportunity
+description: Suggest a canal opportunity, problem or new direction.
+title: "[IDEA] "
+labels: ["idea", "needs-triage"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is the idea?
+      description: Explain the opportunity or problem in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What evidence do you have?
+      description: Include sources, links, location and dates where possible.
+    validations:
+      required: false
+  - type: textarea
+    id: value
+    attributes:
+      label: Who benefits and who might pay?
+    validations:
+      required: false
+  - type: textarea
+    id: contribution
+    attributes:
+      label: What could Canal Commons uniquely contribute?
+    validations:
+      required: false
