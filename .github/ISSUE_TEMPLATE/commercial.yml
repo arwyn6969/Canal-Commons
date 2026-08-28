@@ -1,0 +1,38 @@
+name: 💷 Commercial opportunity
+description: Submit a real project, customer, funding or transaction opportunity.
+title: "[COMMERCIAL] "
+labels: ["commercial", "needs-triage"]
+body:
+  - type: textarea
+    id: opportunity
+    attributes:
+      label: Opportunity
+      description: What real-world project or transaction are you proposing?
+    validations:
+      required: true
+  - type: textarea
+    id: counterparty
+    attributes:
+      label: Counterparty and location
+      description: Who is involved? Do not publish confidential personal or commercial information.
+    validations:
+      required: true
+  - type: textarea
+    id: economics
+    attributes:
+      label: Economics
+      description: Estimated value, capital requirement, customer, funding and potential revenue if known.
+    validations:
+      required: false
+  - type: textarea
+    id: role
+    attributes:
+      label: Potential Canal Commons role
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Canal or public benefit
+    validations:
+      required: true
