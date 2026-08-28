@@ -1,0 +1,25 @@
+name: 🔬 Research task
+description: Propose or volunteer for a defined research task.
+title: "[RESEARCH] "
+labels: ["research", "help wanted"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: What specific question should be answered?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and useful sources
+    validations:
+      required: false
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output
+      description: What would a useful answer or deliverable look like?
+    validations:
+      required: true
